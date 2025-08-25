@@ -46,5 +46,10 @@ public class HelloController {
     public String saludar7(){
         return "Hola xdddddddd";
     }
+
+    @GetMapping("/hello8")
+    public String saludar8(){
+        return "Hola carlos";
+    }
 }
 
