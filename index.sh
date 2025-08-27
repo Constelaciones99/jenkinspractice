@@ -1,1 +1,1 @@
-echo "usando un SCM"
+echo "hola, burros!"
