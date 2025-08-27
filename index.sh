@@ -1,1 +1,1 @@
-echo "Hola mundo con Jenkins y github"
+echo "usando un SCM"
