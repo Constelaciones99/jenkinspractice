@@ -1,0 +1,1 @@
+print("Esta siendo ejecutado directamente desde python")
