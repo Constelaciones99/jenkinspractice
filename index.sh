@@ -1,1 +1,1 @@
-echo "Les quiero decir cuantos los respeto ~atte. Rama2!"
+echo "Gracias Rama2. Son muy lindos :) By: Master"
