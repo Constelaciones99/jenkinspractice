@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Activando entorno virtual..."
-source venv/bin/activate
+source venv/Scripts/activate
 
 echo "Instalando dependencias..."
 pip install -r requirements.txt
