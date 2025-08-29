@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Activando entorno virtual..."
-if[ ! -d "venv" ]; then
+if [ ! -d "venv" ]; then
 echo "El entorno virtual no existe. Creando uno nuevo..."
     python -m venv venv
 fi
