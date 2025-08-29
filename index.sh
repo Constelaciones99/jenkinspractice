@@ -1,1 +1,1 @@
-echo "Gracias Rama2 y Rama3. Son muy lindos ustedes :) By: Master!"
+echo "Gracias Rama2 y Rama3. Son muy lindos ustedes :) Atte: Master!"
