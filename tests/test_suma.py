@@ -10,7 +10,6 @@ def test_suma():
     assert suma(0, 0) == 0
     assert suma(-1, -1) == -2
 
-@pytest.mark.xfail(reason="Este test está diseñado para fallar")
 def test_suma_fail():
     pytest.xfail("Este test está diseñado para fallar")
     assert suma(1, 2) == 4  # Este test está diseñado para fallar
