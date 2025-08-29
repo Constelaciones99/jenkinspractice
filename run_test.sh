@@ -22,6 +22,6 @@ pip install --upgrade pip --break-system-packages
 pip install -r requirements.txt --break-system-packages
 
 echo "Ejecutando pruebas con pytest ..."
-venv/bin/python -m  pytest tests/ --junit-xml=reports/test-results.xml --html=reports/test-report.html --self-contained-html
+venv/Scripts/python -m  pytest tests/ --junit-xml=reports/test-results.xml --html=reports/test-report.html --self-contained-html
 
 echo "Pruebas completadas. Los informes se encuentran en el directorio 'reports'."
