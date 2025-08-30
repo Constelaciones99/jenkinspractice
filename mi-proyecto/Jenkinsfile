@@ -1,0 +1,32 @@
+pipeline{
+    agent any
+    stages{
+        stage('Build'){
+            steps{
+                sh 'mvn clean install'
+            }
+        }
+        stage('Test'){
+            steps{
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy'){
+            steps{
+                echo "Simulando despliegue a un servidor  de aplicaciones..."
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Este bloque se ejecuta siempre, sin importar el resultado de la build.'
+        }
+        success {
+            echo 'La build se completó con éxito.'
+        }
+        failure {
+            echo 'La build falló. Revisa los logs para más detalles.'
+        }
+    }
+}
